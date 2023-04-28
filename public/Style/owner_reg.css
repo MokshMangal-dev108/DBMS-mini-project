@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-container {
+    flex: 1;
+    height: 100%;
+    background-image: url('image1.jpg');
+    background-size: cover;
+    background-position: left;
+}
+
+.image-container2 {
+    flex: 1;
+    height: 100%;
+    background-image: url('image2.jpg');
+    background-size: cover;
+    background-position: left;
+}
+
+.image-container3 {
+    flex: 1;
+    height: 100%;
+    background-image: url('image3.jpg');
+    background-size: cover;
+    background-position: left;
+}
+
+.image-container4 {
+    flex: 1;
+    height: 100%;
+    background-image: url('image4.jpg');
+    background-size: cover;
+    background-position: left;
+}
+
+.ownerReg {
+    height: 92%;
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ownerReg h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.propRes {
+    height: 92%;
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.propRes h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* staffListing-Result ejs */
+.staffListing-Result table{
+    margin: 0px;
+    padding: 0px;
+}
+.staffListing-Result table tr{
+    margin-bottom: 0px;
+}
+
+.staffListing-Result table tr td{
+    padding: 18px 10px;
+    border-right: 1px solid;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+tbody {
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+select {
+    width: 171px;
+    padding: 1px 0;
+}
+
+.btn_div {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    /* margin-left: 19px; */
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    color: darkblue;
+    background-color: white;
+}
